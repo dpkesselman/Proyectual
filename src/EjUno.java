@@ -5,6 +5,8 @@ import java.util.Scanner;
 public class EjUno {
 
 	public static void main(String[] args) {
+		//TODO falta la validacion de errores
+		
 		Scanner sc = new Scanner(System.in);
 		int numA, numB;
 		System.out.println("Ingrese un número entero: ");
