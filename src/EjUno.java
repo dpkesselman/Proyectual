@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class EjUno {
 
-	public static void main(String[] args) {
+	public static void uno () {
 		//TODO falta la validacion de errores
 		//Realizada validación de errores
 		

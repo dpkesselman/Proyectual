@@ -3,7 +3,7 @@ import java.util.Scanner;
 
 public class EjTres {
 
-	public static void main(String[] args) {
+	public static void tres() {
 		
 		/* TODO falta que valide que el mes y el dia sean validos, 
 		 * por ejemplo: si ingreso dia 45 del mes 13 no me avisa que no existen  y calcula la fecha igual */
