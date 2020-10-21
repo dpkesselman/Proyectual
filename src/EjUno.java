@@ -6,6 +6,10 @@ public class EjUno {
 
 	public static void main(String[] args) {
 		//TODO falta la validacion de errores
+		//Realizada validación de errores
+		
+		try
+		{
 		
 		Scanner sc = new Scanner(System.in);
 		int numA, numB;
@@ -22,7 +26,12 @@ public class EjUno {
 		System.out.println("La multiplicacion es: " + resultado);
 		resultado = numA / numB;
 		System.out.println("La division es: " + resultado);
-
+		}
+		
+		catch (Exception exception)
+		{
+			System.out.println("Error");
+		}
 
 	}
 

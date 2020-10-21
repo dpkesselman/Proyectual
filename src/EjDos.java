@@ -6,6 +6,8 @@ public class EjDos {
 
 	public static void main(String[] args) {
 		
+		try 
+		{
 		Scanner sc = new Scanner(System.in);
 		int numA, numB;
 		System.out.println("Ingrese un número entero: ");
@@ -28,8 +30,12 @@ public class EjDos {
 		{
 			System.out.println(numA + " y " + numB + " son iguales");
 		}
+		}
 
-
+		catch (Exception exception)
+		{
+			System.out.println("Error");
+		}
 	}
 
 }

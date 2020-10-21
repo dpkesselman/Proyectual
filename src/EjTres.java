@@ -8,6 +8,7 @@ public class EjTres {
 		/* TODO falta que valide que el mes y el dia sean validos, 
 		 * por ejemplo: si ingreso dia 45 del mes 13 no me avisa que no existen  y calcula la fecha igual */
 		
+		
 		Scanner sc = new Scanner(System.in);
 		int dia1, mes1, año1, dia2, mes2, año2;
 		System.out.println("Ingrese día: ");
