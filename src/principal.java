@@ -8,9 +8,10 @@ public class principal {
 		{
 			//EjUno.uno();
 			//EjTres.tres();
+			EjCuatro.cuatro();
 			//EjSeis.seis();
 			//EjSiete.siete();
-			EjNueve.nueve();
+			//EjNueve.nueve();
 		}
 		
 		catch (Exception exception)
